@@ -11,8 +11,9 @@ Built a functional multi-VM Active Directory domain environment in Oracle Virtua
 - Windows 11 client domain join  
 - Troubleshooting domain join and GPO issues  
 
-**Lab Topology**  
-<image-card alt="AD Lab Topology" src="../diagrams/ad-topology.png" ></image-card>
+**Lab Topology**
+
+![Active Directory Lab Topology](../diagrams/ad-topology.png)
 
 ### Environment Specs
 | Component         | Details                                      |
