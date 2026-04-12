@@ -21,7 +21,7 @@ Built a functional multi-VM Active Directory domain environment in Oracle Virtua
 | Domain Controller | Windows Server 2025 Standard (Desktop Experience) |
 | Client            | Windows 11 Pro                               |
 | Networking        | Host-only Adapter (192.168.10.0/24)          |
-| Domain Name       | `corp.local`                                 |
+| Domain Name       | `LAB.local`                                 |
 
 ### Key Steps Completed
 - Installed Server 2025 with Desktop Experience
