@@ -12,7 +12,7 @@ Built a functional multi-VM Active Directory domain environment in Oracle Virtua
 - Troubleshooting domain join and GPO issues  
 
 **Lab Topology**  
-![AD Lab Topology](../diagrams/ad-topology.png)
+<image-card alt="AD Lab Topology" src="../diagrams/ad-topology.png" ></image-card>
 
 ### Environment Specs
 | Component         | Details                                      |
