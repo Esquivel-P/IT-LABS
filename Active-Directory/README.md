@@ -13,7 +13,8 @@ Built a functional multi-VM Active Directory domain environment in Oracle Virtua
 
 **Lab Topology**
 
-![Active Directory Lab Topology](https://raw.githubusercontent.com/Esquivel-P/IT-Labs/main/diagrams/ad-topology.png)
+![Active Directory Lab Topology](https://github.com/Esquivel-P/IT-LABS/blob/main/ad-topology.png)
+
 
 ### Environment Specs
 | Component         | Details                                      |
