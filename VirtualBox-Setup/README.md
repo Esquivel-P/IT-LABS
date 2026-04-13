@@ -68,6 +68,13 @@ Configured Oracle VirtualBox as the primary hypervisor for reliable, reproducibl
 - Host-only network configuration
 - Snapshot manager
 
+- ### Troubleshooting Notes
+
+**Networking / Static IP Issues**
+- Changing VM OS Type from "Windows 11 (64-bit)" to "Windows Server 2025 (64-bit)" resolved the guest OS ignoring manual static IP settings on the Host-only adapter.
+- Always verify the Host-only Adapter in VirtualBox Network Manager is set to manual IP (`192.168.10.10`) with DHCP disabled.
+- Set static IPs + DNS pointing to the DC (`192.168.10.10`) on both DC and client VMs.
+
 ---
 
 *Last updated: April 2026*  
