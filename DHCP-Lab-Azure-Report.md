@@ -10,7 +10,7 @@ Configure a Windows Server 2025 DHCP server in Microsoft Azure with multiple sco
 
 Created resource group `rg-dhcp-lab`, virtual network `vnet-dhcp-lab`, and Windows Server VM (`dc1`).
 
-![Resource Group](Images/01-resource-group.png)
+![Resource Group] (https://github.com/Esquivel-P/Images/blob/main/01-resource-group.png)
 
 ![Virtual Network](Images/02-virtual-network.png)
 
