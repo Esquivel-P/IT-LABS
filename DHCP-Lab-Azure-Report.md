@@ -8,7 +8,7 @@ Configure a Windows Server 2025 DHCP server in Microsoft Azure with multiple sco
 
 ## 1. Azure Environment Setup
 
-Created resource group, virtual network, and Windows Server VM (`dc1`).
+Created resource group `rg-dhcp-lab`, virtual network `vnet-dhcp-lab`, and Windows Server VM (`dc1`).
 
 ![Resource Group](images/01-resource-group.png)
 
@@ -41,54 +41,48 @@ Created and activated three scopes:
 - **Corporate Voice** – 192.168.2.0/24
 - **Guest Wi-Fi** – 192.168.3.0/24
 
-All scopes confirmed **Active**.
-
 ![All Scopes Active](images/09-all-scopes-active.png)
 
 ## 4. Scope Options
 
-Configured the following options on each scope:
-- **003 Router**: 192.168.x.254 (per scope)
-- **006 DNS Servers**: 10.0.0.4 (dc1 private IP)
+Configured essential options on each scope:
+- **003 Router**: 192.168.x.254  
+- **006 DNS Servers**: 10.0.0.4 (dc1)  
 - **015 DNS Domain Name**: lab.local
 
 ![Scope Options](images/10-scope-options.png)
 
 ## 5. Address Exclusions
 
-Added exclusion ranges inside each scope to protect static/infrastructure IPs.
+Added exclusion ranges to protect infrastructure devices.
 
 ![Address Pool with Exclusions](images/11-address-pool-exclusion.png)
 
 ## 6. DHCP Reservations
 
-Created a reservation for **Printer-01** (IP: 192.168.1.25).
+Created reservation for **Printer-01** (192.168.1.25).
 
-![Printer Reservation](images/15-reservation.png)
+![Printer-01 Reservation](images/15-reservation.png)
 
 ## 7. Final Validation
 
-- Scopes are Active (verified via GUI and PowerShell)
-- DHCP Server service is Running
-- Right-click menu confirms activation status
-
 ![Scope Deactivate Menu](images/12-scope-deactivate-menu.png)
 
-![PowerShell Get-DhcpServerv4Scope](images/13-powershell-validation.png)
+![PowerShell Validation](images/13-powershell-validation.png)
 
-![DHCP Service Status](images/14-dhcp-service-running.png)
+![DHCP Service Running](images/14-dhcp-service-running.png)
 
 ## Azure-Specific Notes
 This lab was performed entirely in Azure. Real client DHCP leasing is handled by Azure’s platform DHCP, so validation focused on **server-side configuration** only.
 
-## Key Takeaways
-- Successfully built a multi-scope DHCP server with proper options and reservations.
-- Understood the difference between exclusions (for infrastructure) and reservations (centralized static IPs).
-- Gained hands-on experience with Windows Server DHCP MMC and PowerShell validation.
-- Learned Azure networking constraints when running DHCP labs.
+## Azure Notes & Key Takeaways
+- Focused on server-side DHCP configuration (Azure platform DHCP handles client leasing).
+- Learned proper use of scope options, exclusions vs reservations.
+- Gained hands-on experience with Windows Server DHCP MMC and PowerShell.
 
 ## Cleanup
-Stopped and deallocated the VM, then deleted the resource group `rg-dhcp-lab` to prevent unnecessary costs.
+Deallocated VM and deleted resource group to avoid charges.
 
 ---
+
 
