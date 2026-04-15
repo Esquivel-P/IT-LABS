@@ -10,7 +10,7 @@ Built a functional multi-VM Active Directory domain environment in Oracle Virtua
 
 ## Lab Topology
 
-![Active Directory Lab Topology](diagrams/ad-topology.png)
+![Active Directory Lab Topology]([diagrams/ad-topology.png](https://github.com/Esquivel-P/IT-LABS/blob/6542bf602e56684ee16dbe3fa9c9ce648e8748f5/ad-topology.png))
 
 **Legend:**
 - Blue = Server / Domain Controller  
