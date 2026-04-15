@@ -55,7 +55,7 @@ Built a functional multi-VM Active Directory domain environment in Oracle Virtua
 **Active Directory Users and Computers – Domain users created**  
 ![ADUC Users](images/06-aduc-users.png)
 
-**Security Groups created (Help Desk, Sales, HR)**  
+**Security Groups created (IT, Sales, HR)**  
 ![Security Groups](images/07-security-groups.png)
 
 **HR group with member added (Cody Orton)**  
