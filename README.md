@@ -2,6 +2,8 @@
 
 Hi! I'm Patrick, an aspiring **IT Support / Help Desk / Systems Administrator** professional based in San Jose, CA.
 
+**CompTIA A+ Certified** (earned April 2026) — validating foundational IT skills in hardware, software troubleshooting, networking, security, and operational procedures.
+
 This GitHub showcases hands-on homelabs I've built to develop real-world IT skills and create strong portfolio evidence.
 
 ## Completed Labs
@@ -82,7 +84,7 @@ Simulated a full corporate IT help desk for **IT-LABS** using Spiceworks Cloud H
 ## Goals
 - Gain practical experience that mirrors real IT support and systems administration roles
 - Build a strong portfolio for entry-level **IT Support**, **Help Desk**, **Desktop Support**, or **Junior Systems Admin** positions
-- Prepare for certifications (CompTIA A+, Network+, Server+, Google IT Support, etc.)
+- Continue preparing for next certifications (CompTIA Network+, Security+, AZ-900, CCNA.)
 
 ---
 
