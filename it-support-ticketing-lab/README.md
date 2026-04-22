@@ -81,15 +81,7 @@ I simulated a realistic corporate IT environment (IT-LABS) by:
 - Documentation & knowledge management
 - Customer service & clear communication
 
-## Future Improvements (Optional)
-- Add automation (PowerShell scripts for common tasks)
-- Integrate with a self-hosted ticketing system (osTicket / FreeScout)
-- Expand KB with more advanced scenarios
-- Add metrics/reporting examples from Spiceworks
-
 ---
 
 **Created as part of my IT Homelab portfolio**  
 Ready for IT Support / Help Desk / Desktop Support positions.
-
-Feel free to reach out if you'd like to see the full KB articles or more details!
