@@ -1,75 +1,92 @@
-# IT Labs Portfolio
+# Patrick's IT Homelab Portfolio
 
-Documentation for my home lab projects focused on **CompTIA A+ Core 2**, **Network+**, **Security+**, and practical IT administration skills.
+Hi! I'm Patrick, an aspiring **IT Support / Help Desk / Systems Administrator** professional based in San Jose, CA.
 
-Built using **Oracle VirtualBox**, **Windows Server 2025**, **Windows 11**, and **Microsoft Azure**.
+This GitHub showcases hands-on homelabs I've built to develop real-world IT skills and create strong portfolio evidence.
 
-## Lab Projects
+## Completed Labs
 
-### Active Directory Domain Lab
-**Completed**  
-Multi-VM Windows Server 2025 Domain Controller + Windows 11 client.  
-Configured AD DS, DNS, OUs, users/groups, security groups, file shares, and basic Group Policy.
+### 1. Active Directory Lab
+**Status: Completed** ✅
 
-**Skills Practiced:**
-- Domain Controller promotion
-- User and group management
-- File sharing and permissions
-- Domain join troubleshooting
-- PowerShell for AD verification
+Built a Windows domain environment in VirtualBox to practice core directory services.
 
-**View Full Report:** [Active Directory Domain Lab](./Active-Directory/README.md)
+**Key Components & Skills:**
+- Windows Server 2022 as Domain Controller
+- Active Directory Domain Services (AD DS) installation and configuration
+- Organizational Units (OUs) structure
+- User account creation, security groups, and password policies
+- Group Policy Objects (GPO) for user and computer management
+- Shared folder permissions and access control
+- Basic domain joining with Windows client
+
+**[View Active Directory Lab →](https://github.com/Esquivel-P/IT-LABS/tree/main/Active-Directory)**
+
+### 2. DHCP Lab (Azure)
+**Status: Completed** ✅
+
+Configured a cloud-based DHCP environment in Microsoft Azure.
+
+**Key Components & Skills:**
+- Azure Virtual Network and Subnet configuration
+- Azure DHCP options and IP address management
+- DHCP scope creation and reservations (via Azure tools)
+- Integration with Azure DNS and Virtual Machines
+- Troubleshooting IP assignment and connectivity issues in the cloud
+- Cloud networking fundamentals (VNets, NSGs, routing)
+
+**[View DHCP Lab →](https://github.com/Esquivel-P/IT-LABS/blob/main/DHCP-Lab-Azure-Report.md)**
+
+### 3. IT Help Desk & Ticketing System Lab (Spiceworks)
+**Status: Completed** ✅
+
+Simulated a full corporate IT help desk for **IT-LABS** using Spiceworks Cloud Help Desk.
+
+**What I Built:**
+- Created and resolved **13 realistic employee support tickets** (password resets, printer failures, slow PCs, Outlook/email issues, new user onboarding, shared folder permissions, phishing, BSOD, VPN, MDM/Intune enrollment, WiFi, etc.)
+- Performed end-to-end troubleshooting and resolution
+- Used **Public Replies**, detailed **Private Notes**, root cause analysis, and **Final Resolution Notes**
+- Built a **Knowledge Base with 12 professional articles** complete with step-by-step guides and screenshots
+- Closed all tickets with proper KB linking
+
+**Key Skills Demonstrated:**
+- Help desk ticket lifecycle management
+- Professional end-user communication
+- Windows client troubleshooting (Print Spooler, Task Manager, BSOD, sfc /scannow, gpupdate)
+- Security awareness (phishing & malware response)
+- Knowledge management and documentation
+- ITIL-aligned support practices
+
+**[View Ticketing Lab →](https://github.com/Esquivel-P/IT-LABS/tree/main/it-support-ticketing-lab)**
+
+**Highlights:**
+- Full ticket resolution workflow with private notes
+- Complete closed tickets list (all 13 resolved)
+- Knowledge Base overview showing 12 detailed articles
+- Real troubleshooting screenshots (stuck print queue, Print Spooler, BSOD, Task Manager, phishing email)
+
+## Next Lab: Linux Server Administration
+**Status: Planned**
+
+- Ubuntu Server setup in VirtualBox
+- User management, permissions, SSH, firewall
+- Services, networking, and basic automation with Bash
+
+## Skills & Tools Summary
+- **Directory Services**: Active Directory, Group Policy, user/group management
+- **Networking**: DHCP scopes, reservations, IP management
+- **Help Desk**: Spiceworks Cloud, Knowledge Base creation, ITIL practices
+- **Client OS**: Windows 11 advanced troubleshooting
+- **Infrastructure**: Windows Server, VirtualBox, Microsoft Azure
+
+## Goals
+- Gain practical experience that mirrors real IT support and systems administration roles
+- Build a strong portfolio for entry-level **IT Support**, **Help Desk**, **Desktop Support**, or **Junior Systems Admin** positions
+- Prepare for certifications (CompTIA A+, Network+, Server+, Google IT Support, etc.)
 
 ---
 
-### DHCP Lab (Azure)
-**Completed**  
-Deployed and configured a Windows Server 2025 DHCP server entirely in Microsoft Azure.
+**Let's connect!**  
+Open to feedback, collaboration, or entry-level IT opportunities in the Bay Area.
 
-Created three scopes (Users LAN, Corporate Voice, Guest Wi-Fi), configured scope options (003 Router, 006 DNS Servers, 015 DNS Domain Name), added exclusions, and created reservations.
-
-**Skills Practiced:**
-- DHCP scope creation and management
-- DHCP options configuration
-- Exclusions vs Reservations
-- Server-side validation using MMC and PowerShell
-- Understanding Azure networking constraints
-
-**View Full Report:** [DHCP Lab - Azure Implementation](./DHCP-Lab-Azure-Report.md)
-
----
-
-### VirtualBox Base Setup
-Optimized VirtualBox configuration for reliable lab environments (Guest Additions, networking, snapshots, performance tweaks).
-
-**View Details:** [VirtualBox Base Setup](./VirtualBox-Setup/README.md)
-
----
-
-### Linux Basics (Coming Soon)
-Ubuntu server installation, networking, user management, SSH hardening, and package management.
-
-### Troubleshooting Scenarios (Coming Soon)
-Real-world troubleshooting exercises for Windows, networking, and Active Directory issues.
-
----
-
-## Lab Topology (Current)
-
-- **Active Directory Lab**: Windows Server 2025 DC + Windows 11 Client (VirtualBox – Host-Only + NAT)
-- **DHCP Lab**: Single Windows Server 2025 VM in Microsoft Azure
-
----
-
-## Technologies Used
-- **Hypervisor**: Oracle VirtualBox
-- **Cloud**: Microsoft Azure
-- **Server OS**: Windows Server 2025 Standard Evaluation
-- **Client OS**: Windows 11 Pro
-- **Tools**: Active Directory, DHCP, PowerShell, Group Policy, File Sharing
-
----
-
-**Goal:** Build strong practical skills for IT support, systems administration, and entry-level roles.
-
-Last updated: April 2026
+Feel free to explore the labs and reach out.
