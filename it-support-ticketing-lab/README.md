@@ -32,37 +32,37 @@ I simulated a realistic corporate IT environment (IT-LABS) by:
 ## Screenshots Gallery
 
 ### Lab Completion Proof
-![All Tickets Closed](image/01-closed-tickets.png)
+![All Tickets Closed](images/01-closed-tickets.png)
 *All 13 tickets successfully resolved and closed with proper documentation.*
 
-![Open Tickets Dashboard](image/02-open-tickets-dashboard.png)
+![Open Tickets Dashboard](images/02-open-tickets-dashboard.png)
 *Initial open ticket queue showing realistic workload.*
 
 ### Ticket Handling Example
-![Full Ticket with Private Notes - Printer Issue](image/03-ticket-with-private-notes.png)
+![Full Ticket with Private Notes - Printer Issue](images/03-ticket-with-private-notes.png)
 *Complete ticket showing Public Reply, detailed Private Note (troubleshooting steps + root cause), and Final Resolution Note with KB link.*
 
 ### Knowledge Base
-![Knowledge Base Overview](image/04-knowledge-base-overview.png)
+![Knowledge Base Overview](images/04-knowledge-base-overview.png)
 *12 professional KB articles created and organized.*
 
-![Example KB Article - Printer Troubleshooting](image/10-kb-article-example.png)
+![Example KB Article - Printer Troubleshooting](images/10-kb-article-example.png)
 *Detailed step-by-step KB article with embedded screenshots.*
 
 ### Troubleshooting Screenshots
-![BSOD Troubleshooting](image/05-bsod-example.png)
+![BSOD Troubleshooting](images/05-bsod-example.png)
 *Blue Screen of Death (BSOD) KB article with example error screen.*
 
-![Print Queue with Stuck Jobs](image/06-printer-queue-stuck-jobs.png)
+![Print Queue with Stuck Jobs](images/06-printer-queue-stuck-jobs.png)
 *Stuck print jobs in queue - common printer issue.*
 
-![Print Spooler Service](image/07-print-spooler-service.png)
+![Print Spooler Service](images/07-print-spooler-service.png)
 *Restarting Print Spooler service during troubleshooting.*
 
-![Phishing Email Example](image/08-phishing-email-example.png)
+![Phishing Email Example](images/08-phishing-email-example.png)
 *Realistic suspicious/phishing email used in security ticket.*
 
-![High Resource Usage in Task Manager](image/09-task-manager-high-usage.png)
+![High Resource Usage in Task Manager](images/09-task-manager-high-usage.png)
 *Task Manager showing high memory/CPU - slow PC troubleshooting.*
 
 ## Key Learnings
@@ -85,3 +85,5 @@ I simulated a realistic corporate IT environment (IT-LABS) by:
 
 **Created as part of my IT Homelab portfolio**  
 Ready for IT Support / Help Desk / Desktop Support positions.
+
+Feel free to reach out if you'd like to see the full KB articles or more details!
