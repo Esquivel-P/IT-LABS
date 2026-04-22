@@ -1,57 +1,89 @@
-# IT Support Ticketing & Documentation Homelab
-
-A hands-on lab simulating real-world help desk workflows using **Spiceworks Cloud Help Desk** + custom Knowledge Base.
+# IT Help Desk Homelab - Spiceworks Ticketing System
 
 ## Project Overview
-- Built a full ticketing system with 12+ realistic IT scenarios
-- Practiced ticket lifecycle: creation, triage, troubleshooting, resolution, and documentation
-- Created a Knowledge Base with step-by-step guides and screenshots
-- Focused on professional communication, prioritization, and knowledge sharing
+This homelab demonstrates a complete **IT Support / Help Desk workflow** using Spiceworks Cloud Help Desk. 
 
-**Technologies/Tools Used:**
-- Spiceworks Cloud Help Desk (ticketing system)
-- Windows 11 + Docker (for initial testing)
-- Knowledge Base with detailed procedures and screenshots
+I simulated a realistic corporate IT environment (IT-LABS) by:
+- Creating 12+ realistic employee support tickets
+- Triage, prioritization, and assignment
+- Performing troubleshooting and resolution steps
+- Documenting everything with **Public Replies**, **Private Notes**, and **Final Resolution Notes**
+- Building a **Knowledge Base (KB)** with 12 professional articles
+- Closing all tickets and linking them to KB articles
 
-## Lab Goals & Skills Demonstrated
-- Ticket triage and prioritization (Critical, High, Medium, Low)
-- Professional user communication
-- Troubleshooting common IT issues (password resets, printers, VPN, malware, BSOD, etc.)
-- Building and maintaining a searchable Knowledge Base
-- Documentation discipline (linking KB articles to resolved tickets)
+**Goal**: Build practical help desk experience and create strong portfolio evidence for IT Support / Help Desk / Desktop Support roles.
+
+## Lab Goals Achieved
+- Ticket lifecycle management (Open → In Progress → Closed)
+- Professional customer communication
+- Internal documentation & root cause analysis
+- Knowledge Base creation for self-service and team reference
+- Common IT troubleshooting scenarios (hardware, software, network, security, access, performance)
+
+## Technologies & Tools Used
+- **Spiceworks Cloud Help Desk** (ticketing system)
+- Windows 11 (for troubleshooting simulations)
+- Active Directory concepts (password resets, group permissions, gpupdate)
+- Intune / MDM enrollment
+- Print Spooler management
+- Task Manager, Services.msc, Event Viewer
+- Knowledge Base article creation
 
 ## Screenshots Gallery
 
-### Ticketing System
-- Open tickets dashboard
-- Example ticket view with Public Reply + Private Notes
-- Closed tickets list (showing full lifecycle)
+### Lab Completion Proof
+![All Tickets Closed](screenshots/01-closed-tickets.png)
+*All 13 tickets successfully resolved and closed with proper documentation.*
 
-### Knowledge Base Articles
-(Include 6–10 key screenshots here — one or two per major article)
+![Open Tickets Dashboard](screenshots/02-open-tickets-dashboard.png)
+*Initial open ticket queue showing realistic workload.*
 
-### Examples of Work
-- Password Reset ticket + KB article
-- Malware response ticket + runbook
-- Printer troubleshooting with before/after
+### Ticket Handling Example
+![Full Ticket with Private Notes - Printer Issue](screenshots/03-ticket-with-private-notes.png)
+*Complete ticket showing Public Reply, detailed Private Note (troubleshooting steps + root cause), and Final Resolution Note with KB link.*
 
-## How the Lab Was Built
-1. Set up Spiceworks Cloud Help Desk
-2. Created 12 realistic IT scenarios
-3. Responded as help desk technician (Public + Private notes)
-4. Documented resolutions in Knowledge Base with screenshots
-5. Closed tickets and linked KB articles
+### Knowledge Base
+![Knowledge Base Overview](screenshots/04-knowledge-base-overview.png)
+*12 professional KB articles created and organized.*
+
+![Example KB Article - Printer Troubleshooting](screenshots/10-kb-article-example.png)
+*Detailed step-by-step KB article with embedded screenshots.*
+
+### Troubleshooting Screenshots
+![BSOD Troubleshooting](screenshots/05-bsod-example.png)
+*Blue Screen of Death (BSOD) KB article with example error screen.*
+
+![Print Queue with Stuck Jobs](screenshots/06-printer-queue-stuck-jobs.png)
+*Stuck print jobs in queue - common printer issue.*
+
+![Print Spooler Service](screenshots/07-print-spooler-service.png)
+*Restarting Print Spooler service during troubleshooting.*
+
+![Phishing Email Example](screenshots/08-phishing-email-example.png)
+*Realistic suspicious/phishing email used in security ticket.*
+
+![High Resource Usage in Task Manager](screenshots/09-task-manager-high-usage.png)
+*Task Manager showing high memory/CPU - slow PC troubleshooting.*
 
 ## Key Learnings
-- Importance of clear ticket categorization and prioritization
-- Value of thorough documentation to reduce repeat tickets
-- Professional communication under pressure (especially security incidents)
-- Balancing speed and accuracy in troubleshooting
+- Clear distinction between **Public** (user-facing) and **Private** (internal) notes
+- Importance of documenting root cause and resolution steps
+- Building reusable Knowledge Base articles to reduce future ticket volume
+- Professional communication with end-users
+- Efficient ticket triage using categories and priorities
+- Real-world troubleshooting for common issues (printers, email, performance, access, security, BSOD, VPN, MDM)
 
-## Future Improvements
-- Integrate with a self-hosted ticketing tool (e.g., osTicket or Zammad)
-- Add automation (email-to-ticket, alerts → tickets)
-- Expand KB with more Linux-related scenarios
+## Skills Demonstrated
+- ITIL-aligned help desk practices
+- Active Directory user & permission management
+- Windows troubleshooting & diagnostics
+- Security awareness (phishing, malware response)
+- Documentation & knowledge management
+- Customer service & clear communication
 
-## License
-This is a personal homelab project for learning and portfolio purposes.
+---
+
+**Created as part of my IT Homelab portfolio**  
+Ready for IT Support / Help Desk / Desktop Support positions.
+
+Feel free to reach out if you'd like to see the full KB articles or more details!
