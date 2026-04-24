@@ -2,82 +2,75 @@
 
 **Completed:** April 23, 2026  
 **OS:** Ubuntu 24.04.4 LTS (Noble Numbat)  
-**Environment:** VirtualBox VM + SSH from Windows Host
+**Environment:** Oracle VirtualBox VM + SSH from Windows PowerShell
 
 ---
 
-## 🎯 Lab Overview
+## 🎯 Lab Summary
 
-This lab covers fundamental Linux skills required for Help Desk, Desktop Support, and Junior System Administrator roles. All work was performed on a clean Ubuntu Server 24.04 LTS virtual machine.
+Completed comprehensive Linux Basics training covering essential command-line skills for **Help Desk, Desktop Support, and Junior IT roles**.
 
-### Key Objectives Achieved
-- Set up a fully functional Linux environment accessible via SSH
-- Master Linux file system navigation and management
-- Work with files, permissions, and text editors
-- Manage packages and software
-- Perform advanced searching and process management
-- Use redirection, pipes, and job control
+### Skills Demonstrated
+- Linux environment setup and SSH access
+- File system navigation and management
+- File creation, manipulation, and editing
+- Permissions and ownership
+- Package management (`apt`)
+- Advanced searching (`find`, `grep`, `locate`)
+- Process management and job control
+- Redirection, pipes, and output handling
 
 ---
 
-## 🛠️ Technologies & Tools Used
-
+## 🛠️ Technologies Used
 - **OS**: Ubuntu 24.04.4 LTS Server
 - **Hypervisor**: Oracle VirtualBox
-- **Networking**: NAT + Port Forwarding (SSH on port 2222)
+- **Networking**: NAT + Port Forwarding (SSH port 2222)
 - **Shell**: Bash
-- **Key Commands Practiced**: `apt`, `find`, `grep`, `locate`, `chmod`, `chown`, `nano`, `htop`, `ps`, etc.
 
 ---
 
-## 📸 Lab Documentation (Screenshots)
+## 📸 Lab Documentation
 
-All steps are documented in the [`screenshots/`](screenshots/) folder with clear filenames:
+All screenshots are available in the [`images/`](images/) folder.
 
 ### 1. Environment Setup
-- VirtualBox VM creation and configuration
-- Successful SSH connection from Windows PowerShell
+- VirtualBox VM running
+- Successful SSH connection from Windows
+- System information (`ip addr`, hostname, OS version)
 
 ### 2. File System Navigation
-- `pwd`, `ls -la`, `mkdir`, `cd`, exploring `/etc` and `/var/log`
+- `pwd`, `ls -la`, `mkdir`, `cd`
+- Exploring system directories (`/etc`, `/var/log`)
+- Nested folders with `mkdir -p` + `tree`
 
 ### 3. File Creation & Manipulation
-- `touch`, `echo`, `cat`, `cp`, `mv`, `rm`, `mkdir -p`, `tree`
+- `touch`, `echo`, `cat`, `cp`, `mv`, `rm`
 
-### 4. Text Editor
-- Creating and editing files with `nano`
+### 4. Text Editor (`nano`)
+- Creating and editing notes
 
 ### 5. Permissions & Ownership
-- `chmod` (symbolic + numeric), `chown`, making scripts executable
+- `ls -l`, `chmod`, `chown`, executable scripts
 
 ### 6. Package Management
-- `apt update`, `apt upgrade`, installing packages (`neofetch`, `htop`, `cowsay`, `plocate`)
+- `apt update/upgrade`
+- Installing tools (`neofetch`, `htop`, `cowsay`, `plocate`)
 
 ### 7. Searching & Finding
-- `find`, `grep -r`, `locate` (with `plocate`), `which`, `whereis`
+- `find`, `grep`, `locate`
 
 ### 8. Processes & Redirection
-- `ps aux`, `htop`, background jobs (`&`), `jobs`, `kill`
-- Redirection (`>`, `>>`), pipes (`|`), and `tee`
+- `ps`, `htop`, background jobs, `kill`
+- Redirection (`>`, `>>`), pipes (`|`), `tee`
 
 ---
 
-## 📋 Skills Gained
+## 🏆 Key Takeaways
 
-- Confident Linux command-line usage
-- File and directory management
-- User and permission troubleshooting
-- Software installation and system maintenance
-- Process monitoring and management
-- Efficient searching and text processing
-- Remote server administration via SSH
+This lab provided strong practical Linux command-line proficiency. Combined with previous **Active Directory**, **DHCP**, and **Ticketing** labs, I now have well-rounded foundational IT Support skills across Windows and Linux environments.
 
 ---
 
-## 🏆 Lab Completion Status: **COMPLETED**
-
-
----
-
-**Repository:** [IT-Labs-Portfolio](https://github.com/YOUR-USERNAME/IT-Labs-Portfolio)  
-**Last Updated:** April 23, 2026
+**Last Updated:** April 23, 2026  
+**Part of:** [IT-Labs-Portfolio](https://github.com/Esquivel-P/IT-LABS)
